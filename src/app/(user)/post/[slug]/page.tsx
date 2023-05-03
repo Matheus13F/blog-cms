@@ -77,7 +77,7 @@ export default async function Post({ params: { slug } }: Props) {
 
                 <div className="w-64">
                   <h3 className="text-lg font-bold">{post.author.name}</h3>
-                  <div></div>
+                  <span className="italic text-sm">{post.author.bio}</span>
                 </div>
               </div>
             </div>
